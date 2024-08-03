@@ -9,7 +9,6 @@ def filter_tsv_by_first_two_chars(input_file):
         temp_df = df[df.iloc[:, 0].str.startswith(prefix)]
         output_file_name = f'transcripts/{prefix}.tsv'
         temp_df.to_csv(output_file_name, sep='\t', index=False)
-        # Specify the input and output file paths
 input_file = 'utt_spk_text.tsv'
 
 filter_tsv_by_first_two_chars(input_file)
