@@ -21,3 +21,9 @@ But, these were the traditional methods used before and now, neural network base
 #### **2.1 Organize Your Data**
 
 We need to pair up audio and transcripts into one csv file which can then be fed into the model for deep learning.The csv file should have columns for the audio file path, the transcript and the duration of the audio.
+
+
+
+
+
+`  @inproceedings{kjartansson-etal-sltu2018,     title = {{Crowd-Sourced Speech Corpora for Javanese, Sundanese,  Sinhala, Nepali, and Bangladeshi Bengali}},     author = {Oddur Kjartansson and Supheakmungkol Sarin and Knot Pipatsrisawat and Martin Jansche and Linne Ha},     booktitle = {Proc. The 6th Intl. Workshop on Spoken Language Technologies for Under-Resourced Languages (SLTU)},     year  = {2018},     address = {Gurugram, India},     month = aug,     pages = {52--55},     URL   = {http://dx.doi.org/10.21437/SLTU.2018-11}   }`
