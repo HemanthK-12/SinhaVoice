@@ -22,8 +22,6 @@ But, these were the traditional methods used before and now, neural network base
 
 We need to pair up audio and transcripts into one csv file which can then be fed into the model for deep learning.The csv file should have columns for the audio file path, the transcript and the duration of the audio.
 
-
-
-
+THere are a total of 185,295 transcripts and audio files in the dataset and after downloading all the datasets from [https://openslr.magicdatatech.com/52/]() , unzipping them and running the file audio_transcripts.py, it makes the lookup pair list of all the audio paths, their respective transcripts and the duration.
 
 `  @inproceedings{kjartansson-etal-sltu2018,     title = {{Crowd-Sourced Speech Corpora for Javanese, Sundanese,  Sinhala, Nepali, and Bangladeshi Bengali}},     author = {Oddur Kjartansson and Supheakmungkol Sarin and Knot Pipatsrisawat and Martin Jansche and Linne Ha},     booktitle = {Proc. The 6th Intl. Workshop on Spoken Language Technologies for Under-Resourced Languages (SLTU)},     year  = {2018},     address = {Gurugram, India},     month = aug,     pages = {52--55},     URL   = {http://dx.doi.org/10.21437/SLTU.2018-11}   }`
